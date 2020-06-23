@@ -1,0 +1,10 @@
+2020-Jun-18 15:57:12,244 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-18 15:57:19,614 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-18 15:57:19,615 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  URL launch successfully
+2020-Jun-18 15:57:32,300 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Product search successfully
+2020-Jun-18 15:57:36,755 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

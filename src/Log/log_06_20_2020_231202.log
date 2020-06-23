@@ -1,0 +1,10 @@
+2020-Jun-20 23:12:00,288 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-20 23:12:00,290 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Window maximize
+2020-Jun-20 23:12:01,700 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jun-20 23:12:02,151 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Pop-up close
+2020-Jun-20 23:12:02,339 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  women tab selected

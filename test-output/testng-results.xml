@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42310" started-at="2020-06-20T17:45:02Z" finished-at="2020-06-20T17:45:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42310" started-at="2020-06-20T17:45:02Z" finished-at="2020-06-20T17:45:44Z">
+      <class name="com.testing.headerPage.testCases.OnlyWomenFirstTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testing.headerPage.testCases.OnlyWomenFirstTests@7dc222ae]" name="setUp" is-config="true" duration-ms="41245" started-at="2020-06-20T17:45:02Z" finished-at="2020-06-20T17:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verify_women_test()[pri:1, instance:com.testing.headerPage.testCases.OnlyWomenFirstTests@7dc222ae]" name="verify_women_test" duration-ms="932" started-at="2020-06-20T17:45:43Z" finished-at="2020-06-20T17:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_women_test -->
+      </class> <!-- com.testing.headerPage.testCases.OnlyWomenFirstTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

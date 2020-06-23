@@ -1,0 +1,40 @@
+2020-Jun-20 22:05:12,342 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Browser open
+2020-Jun-20 22:05:24,806 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-20 22:05:24,807 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  URL launch done
+2020-Jun-20 22:05:24,889 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jun-20 22:05:27,139 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-20 22:05:27,140 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Window maximize
+2020-Jun-20 22:05:28,868 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jun-20 22:05:29,533 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Pop-up closed
+2020-Jun-20 22:05:29,860 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  LogIn click
+2020-Jun-20 22:05:30,185 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  click on sigIn
+2020-Jun-20 22:05:30,542 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Enter Mob no
+2020-Jun-20 22:05:30,772 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jun-20 22:05:30,959 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  click on continue
+2020-Jun-20 22:05:32,582 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  OTP enter successfully
+2020-Jun-20 22:05:32,830 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Password entered
+2020-Jun-20 22:05:32,971 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Sign In Button clicked
+2020-Jun-20 22:05:33,739 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Error msg displayed
+2020-Jun-20 22:05:34,078 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Mobile number change successfully
+2020-Jun-20 22:05:34,273 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Mobile no enter successfully
+2020-Jun-20 22:05:34,379 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  CLick on continue

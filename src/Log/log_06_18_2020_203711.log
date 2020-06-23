@@ -1,0 +1,6 @@
+2020-Jun-18 20:37:00,906 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jun-18 20:37:08,995 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Logo click
+2020-Jun-18 20:37:11,807 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

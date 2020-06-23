@@ -1,0 +1,12 @@
+2020-Jun-18 20:48:46,911 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Browser open
+2020-Jun-18 20:48:55,732 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-18 20:48:55,733 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  URL launch done
+2020-Jun-18 20:48:55,763 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jun-18 20:48:58,089 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-18 20:48:58,089 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Window maximize

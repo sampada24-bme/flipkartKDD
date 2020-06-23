@@ -1,0 +1,12 @@
+2020-Jun-18 20:49:02,857 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jun-18 20:49:03,235 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Pop-up close
+2020-Jun-18 20:49:03,425 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  women tab selected
+2020-Jun-18 20:49:03,712 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jun-18 20:49:07,259 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Logo click
+2020-Jun-18 20:49:13,015 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

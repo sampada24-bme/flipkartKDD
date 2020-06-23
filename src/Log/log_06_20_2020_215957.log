@@ -1,0 +1,26 @@
+2020-Jun-20 21:59:20,777 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Browser open
+2020-Jun-20 21:59:42,778 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-20 21:59:42,779 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  URL launch done
+2020-Jun-20 21:59:42,803 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jun-20 21:59:45,776 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-20 21:59:45,778 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Window maximize
+2020-Jun-20 21:59:53,466 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jun-20 21:59:55,210 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Pop-up closed
+2020-Jun-20 21:59:55,409 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  LogIn click
+2020-Jun-20 21:59:56,272 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  click on sigIn
+2020-Jun-20 21:59:56,674 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Enter Mob no
+2020-Jun-20 21:59:57,004 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jun-20 21:59:57,430 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  click on continue

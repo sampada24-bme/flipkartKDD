@@ -1,0 +1,6 @@
+2020-Jun-18 15:58:57,413 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-18 15:58:59,839 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-18 15:58:59,840 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  URL launch successfully

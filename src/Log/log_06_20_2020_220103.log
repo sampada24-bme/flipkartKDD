@@ -1,0 +1,18 @@
+2020-Jun-20 22:01:00,236 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jun-20 22:01:00,494 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  click on continue
+2020-Jun-20 22:01:01,718 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  OTP enter successfully
+2020-Jun-20 22:01:01,998 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Password entered
+2020-Jun-20 22:01:02,147 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Sign In Button clicked
+2020-Jun-20 22:01:02,448 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Error msg displayed
+2020-Jun-20 22:01:02,686 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Mobile number change successfully
+2020-Jun-20 22:01:03,264 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  Mobile no enter successfully
+2020-Jun-20 22:01:03,526 [main] com.testing.headerPage.testCases.SignInTests 
+  INFO  CLick on continue

@@ -20,15 +20,11 @@ public class OnlyWomenPage extends Keyword {
 	@FindBy(xpath = "//span[contains(text(),'Women')]")
 	private WebElement women;
 
-	@FindBy(css = "a[title='Kurtas & Kurtis']")
-	private WebElement KurtasKurtis;
-
 	@FindBy(xpath = "//li[@class='_1KCOnI _2BfSTw _1h5QLb _3ZgIXy']//a[contains(text(),'Ethnic Wear')]")
 	private WebElement ethnicWear;
 
 	@FindBy(xpath = "//li[@class='_1KCOnI _2BfSTw _1h5QLb _3ZgIXy']//a[contains(text(),'Ethnic Wear')]")
 	public WebElement element;
-	
 	
 	@FindBy(xpath="//a[@title='Sarees']")
 	public WebElement saree;
@@ -36,17 +32,6 @@ public class OnlyWomenPage extends Keyword {
 	@FindBy(xpath="_1YoBfV")
 	public WebElement filter;
 	
-	/*
-	 * @FindBy (xpath="//a[@class='_3XS1AH _32ZSYo']") private WebElement
-	 * ethnicwearInside;
-	 * 
-	 * @FindBy(xpath = "//a[@class='_2SvCnW'][contains(text(),'Sarees')]")
-	 * private WebElement sareesInside;
-	 * 
-	 * @FindBy(xpath =
-	 * "//div//a[@class='_2SvCnW'][contains(text(),'Kurtas & Kurtis')]") private
-	 * WebElement KurtasInside;
-	 */
 	@FindBy(xpath = "//img[@class='_1e_EAo']")
 	public WebElement Logo;
 
@@ -73,28 +58,7 @@ public class OnlyWomenPage extends Keyword {
 		return ethnicWear.isDisplayed();
 
 	}
-	// public String getTextEthnicWear()
-	// {
-	// return ethnicwearInside.getText();
-	// }
-
-	// public void clickOnWomen() {
-	// women.click();
-	// }
-
-	public void clickOnKurtasKurtis() {
-		KurtasKurtis.click();
-
-	}
-
-	// public void clickOnSarees() {
-	// sareesInside.click();
-	// }
-	//
-	// public void clickOnKurtas() {
-	// KurtasInside.click();
-	// }
-
+	
 	public void clickOnLogo() {
 		Logo.click();
 	}

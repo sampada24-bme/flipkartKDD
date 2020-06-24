@@ -28,7 +28,7 @@ public class LogInPageTests extends LogInPage {
 	public void verify_PopUP_Close() {
 
 		LogInPage hp = PageFactory.initElements(Constant.driver, LogInPage.class);
-		//Assert.assertTrue(popUp.isDisplayed());
+		Assert.assertTrue(hp.popUpVisible(), "Pop-Up is not visible");
 		hp.closespopUp();
 		log.info("Pop-Up close");
 
@@ -37,10 +37,9 @@ public class LogInPageTests extends LogInPage {
 	@Test(priority = 2)
 	public void verify_Logo() {
 		LogInPage hp = PageFactory.initElements(Constant.driver, LogInPage.class);
+		Assert.assertTrue(hp.isLogoDisplay(), "Logo not available");
 		hp.clickOnLogo();
 		log.info("logo click done");
-		//Assert.assertTrue(hp.isLogoDisplay(), "Logo not visible");
-
 	}
 
 	@Test(priority = 3)
@@ -54,11 +53,10 @@ public class LogInPageTests extends LogInPage {
 
 		hp.clcikOnPAssword();
 		log.info("Entered password");
-        
-		
+
 		hp.clickOnLogInSubmit();
 		log.info("Click on log in submit");
-//		Assert.assertTrue(LogInSubmit.isDisplayed(),"Log-In submit button is not there");
+		Assert.assertTrue(hp.isLogInSubmitVisible(), "Log-In submit button is not there");
 	}
 
 	@Test(priority = 4)
@@ -67,11 +65,11 @@ public class LogInPageTests extends LogInPage {
 
 		hp.enterProductToSearch("shoes");
 		log.info("Product search successfully");
-		
 		Keyword.explicitWait(3);
+		Assert.assertTrue(hp.isSearchButtonVisible(), "Search button not visible");
 		hp.clickOnSearchButton();
 		log.info("search button work fine");
-		
+
 	}
 
 	@AfterTest

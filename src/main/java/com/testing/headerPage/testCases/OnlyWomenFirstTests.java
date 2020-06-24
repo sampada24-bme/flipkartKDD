@@ -30,7 +30,6 @@ public class OnlyWomenFirstTests extends OnlyWomenPage {
 		Keyword.maximize();
 		log.info("Window maximize");
 		Keyword.deleteAllCookies();
-
 	}
 
 	@Test(priority = 1)
@@ -45,20 +44,16 @@ public class OnlyWomenFirstTests extends OnlyWomenPage {
 
 		om.clickSarees();
 
-//		om.explicitWait(10);
-//
-//		om.waitUntil(5);
-//		
-//		om.clickFilter();
-//		//om.selectByValue(filter,"1000");
-//		om.selectByIndex(filter,3);
+		om.explicitWait(10);
 
-		// om.clickOnKurtasKurtis();
-		// log.info("Kurtis selected");
+		om.clickFilter();
+		om.selectByValue(filter, "1000");
+		om.selectByIndex(filter, 3);
 
+		
 	}
 
-	@Test(enabled=false)
+	@Test(enabled = false)
 	public void verify_Logo_Redirect_To_Homepage() {
 		OnlyWomenPage om = PageFactory.initElements(Constant.driver, OnlyWomenPage.class);
 		om.clickOnLogo();
@@ -66,9 +61,9 @@ public class OnlyWomenFirstTests extends OnlyWomenPage {
 		Assert.assertTrue(om.isLogoDisplay(), "Logo not visible");
 	}
 
-//	@AfterTest
-//	public static void tearDown() {
-//		Keyword.closeBrowser();
-//	}
+	// @AfterTest
+	// public static void tearDown() {
+	// Keyword.closeBrowser();
+	// }
 
 }

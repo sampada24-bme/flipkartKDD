@@ -1,5 +1,6 @@
 package com.testing.headerPage;
 
+import org.apache.commons.logging.Log;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -33,10 +34,12 @@ public class LogInPage extends Keyword {
 	
 	public boolean closespopUp() {
 		popUp.click();
-		return true ;
-		
+		return true ;	
 	}
-	
+	public boolean popUpVisible() {
+		return popUp.isDisplayed();
+	}
+
 	public void clickOnLogo() {
 		logo.click();
 	}
@@ -57,13 +60,17 @@ public class LogInPage extends Keyword {
 	public void clickOnLogInSubmit() {
 	LogInSubmit.click();
 	}
-	
+	public boolean isLogInSubmitVisible() {
+		return LogInSubmit.isDisplayed();
+	}
 	public void enterProductToSearch(String productName) {
 		searchComponent.sendKeys(productName);
 	}
 	public void clickOnSearchButton() {
 		searchButton.click();
-
+	}
+	public boolean isSearchButtonVisible() {
+		return searchButton.isDisplayed();
 	}
 
 }

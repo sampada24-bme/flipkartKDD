@@ -1,0 +1,12 @@
+2020-Jun-24 23:39:02,743 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-24 23:39:04,927 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-24 23:39:04,927 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jun-24 23:39:05,173 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jun-24 23:39:05,188 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jun-24 23:39:05,555 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

@@ -193,10 +193,15 @@ public class Keyword extends Constant {
 	 * 
 	 * @param locatorName
 	 */
-	public static void mouseHoverOnly(String locatorName) {
+	public static void mouseHoverOnly(String locator) {
 		action = new Actions(driver);
-		action.moveToElement(getWebElement(locatorName)).perform();
+		action.moveToElement(getWebElement(locator)).perform();
 		log.info("It will just hover mouse");
+	
+		
+	/*	action = new Actions(driver);
+		action.moveToElement(gettingWebElement(locator)).perform();
+		log.info("It will just hover mouse");*/
 	}
 
 	/**
@@ -241,9 +246,9 @@ public class Keyword extends Constant {
 	 * @param locatorType
 	 * @param locatorValue
 	 */
-	public static void mouseHoverClick(String locatorName) {
+	public static void mouseHoverClick(String locator) {
 		action = new Actions(driver);
-		action.moveToElement(getWebElement(locatorName)).click().build().perform();
+		action.moveToElement(getWebElement(locator)).click().build().perform();
 		log.info("mouse hover and click perform");
 	}
 

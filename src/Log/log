@@ -1,8 +1,10 @@
-2020-Jun-23 15:06:00,582 [main] com.testing.keyword.Keyword 
-  INFO  deleted cookies
-2020-Jun-23 15:06:02,230 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Pop-up close
-2020-Jun-23 15:06:03,787 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  women tab selected
-2020-Jun-23 15:06:09,713 [main] com.testing.keyword.Keyword 
+2020-Jun-24 23:55:02,111 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-24 23:55:02,133 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jun-24 23:55:02,380 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jun-24 23:55:02,380 [main] com.testing.keyword.Keyword 
   INFO  explici wait applied
+2020-Jun-24 23:55:02,763 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

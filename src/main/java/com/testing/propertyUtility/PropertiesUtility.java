@@ -19,8 +19,11 @@ public class PropertiesUtility {
 		String locator ="";
 		try {
 
+			//FileInputStream fis = new FileInputStream(
+			//"F:\\classjava\\flipkartKDD\\src\\main\\resources\\objectRepository.properties");
 			FileInputStream fis = new FileInputStream(
-			"F:\\classjava\\flipkartKDD\\src\\main\\resources\\objectRepository.properties");
+			"G:\\GitHub Project\\flipkartKDD\\src\\main\\resources\\objectRepository.properties");
+			
 			prop.load(fis);
 			locator = (String)prop.getProperty(locatorName);
 		} catch (FileNotFoundException e) {
@@ -30,11 +33,11 @@ public class PropertiesUtility {
 			System.out.println("File not found");
 			e.printStackTrace();
 		}
-		System.out.println("locator: "+locator);
+	//*	System.out.println("locator: "+locator);
 		return locator;
 	}
 	public static String[] getLocatorValue(String locatorName) {
-		System.out.println("locator name: "+locatorName);
+		//*System.out.println("locator name: "+locatorName);
 		return getLocator(locatorName).split("##");
 	
 	}

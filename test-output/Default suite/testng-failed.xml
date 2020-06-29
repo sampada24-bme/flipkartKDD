@@ -3,13 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.snehal.tests.UniversalBabyTests">
+      <class name="com.nutan.tests.ElectronicPageTests">
         <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="tc_04_verify_product_images_display_when_clickon_poloandtshirt"/>
+          <include name="Verify_Offers_OfMobile"/>
+          <include name="verify_Sort_By_Price"/>
+          <include name="Verify_Screen_Size_OfMobile"/>
+          <include name="setUp"/>
+          <include name="verify_Flipkart_Assured"/>
+          <include name="Verify__Type_OfMobile"/>
+          <include name="Verify_BatteryCapacity_Mobile"/>
+          <include name="Verify_PrimaryCamera_OfMobile"/>
         </methods>
-      </class> <!-- com.snehal.tests.UniversalBabyTests -->
+      </class> <!-- com.nutan.tests.ElectronicPageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

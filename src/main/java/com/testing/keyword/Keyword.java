@@ -19,8 +19,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 
-import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 import com.testing.constant.Constant;
+//import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 import com.testing.propertyUtility.PropertiesUtility;
 import com.testing.searchComponent.SearchComponent;
 

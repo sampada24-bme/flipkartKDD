@@ -22,7 +22,7 @@ public class PropertiesUtility {
 			//FileInputStream fis = new FileInputStream(
 			//"F:\\classjava\\flipkartKDD\\src\\main\\resources\\objectRepository.properties");
 			FileInputStream fis = new FileInputStream(
-			"G:\\GitHub Project\\flipkartKDD\\src\\main\\resources\\objectRepository.properties");
+			"F:\\git project\\flipkartKDD\\src\\main\\resources\\bjectRepository.properties");
 			
 			prop.load(fis);
 			locator = (String)prop.getProperty(locatorName);

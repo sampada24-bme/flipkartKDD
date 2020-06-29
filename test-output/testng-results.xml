@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41502" started-at="2020-06-23T09:35:30Z" finished-at="2020-06-23T09:36:11Z">
+  <suite name="Default suite" duration-ms="24264" started-at="2020-06-24T18:24:38Z" finished-at="2020-06-24T18:25:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41502" started-at="2020-06-23T09:35:30Z" finished-at="2020-06-23T09:36:11Z">
-      <class name="com.testing.headerPage.testCases.OnlyWomenFirstTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testing.headerPage.testCases.OnlyWomenFirstTests@7dc222ae]" name="setUp" is-config="true" duration-ms="30725" started-at="2020-06-23T09:35:30Z" finished-at="2020-06-23T09:36:00Z">
+    <test name="Default test" duration-ms="24264" started-at="2020-06-24T18:24:38Z" finished-at="2020-06-24T18:25:02Z">
+      <class name="com.snehal.tests.UniversalBabyTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.snehal.tests.UniversalBabyTests@8b87145]" name="setup" is-config="true" duration-ms="23603" started-at="2020-06-24T18:24:38Z" finished-at="2020-06-24T18:25:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verify_women_test()[pri:1, instance:com.testing.headerPage.testCases.OnlyWomenFirstTests@7dc222ae]" name="verify_women_test" duration-ms="9901" started-at="2020-06-23T09:36:00Z" finished-at="2020-06-23T09:36:10Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="tc_04_verify_product_images_display_when_clickon_poloandtshirt()[pri:0, instance:com.snehal.tests.UniversalBabyTests@8b87145]" name="tc_04_verify_product_images_display_when_clickon_poloandtshirt" duration-ms="296" started-at="2020-06-24T18:25:02Z" finished-at="2020-06-24T18:25:02Z">
+          <exception class="org.openqa.selenium.JavascriptException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"_1YoBfV"}
-  (Session info: chrome=83.0.4103.106)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.116)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ADI', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'DESKTOP-6JJE3KO', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:60609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a3fefd324fc432029919098970b17bc3
-*** Element info: {Using=xpath, value=_1YoBfV}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Dhiraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 09866dabd881a8c8c0b63aeab11cd5e3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"_1YoBfV"}
-  (Session info: chrome=83.0.4103.106)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=83.0.4103.116)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ADI', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+System info: host: 'DESKTOP-6JJE3KO', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:60609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a3fefd324fc432029919098970b17bc3
-*** Element info: {Using=xpath, value=_1YoBfV}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Dhiraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 09866dabd881a8c8c0b63aeab11cd5e3
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -44,15 +40,10 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at com.testing.headerPage.OnlyWomenPage.clickFilter(OnlyWomenPage.java:72)
-at com.testing.headerPage.testCases.OnlyWomenFirstTests.verify_women_test(OnlyWomenFirstTests.java:49)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at com.testing.keyword.Keyword.mouseHoverClick(Keyword.java:251)
+at com.snehal.tests.UniversalBabyTests.tc_04_verify_product_images_display_when_clickon_poloandtshirt(UniversalBabyTests.java:65)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -80,11 +71,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_women_test -->
-      </class> <!-- com.testing.headerPage.testCases.OnlyWomenFirstTests -->
+        </test-method> <!-- tc_04_verify_product_images_display_when_clickon_poloandtshirt -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.snehal.tests.UniversalBabyTests@8b87145]" name="tearDown" is-config="true" duration-ms="318" started-at="2020-06-24T18:25:02Z" finished-at="2020-06-24T18:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.snehal.tests.UniversalBabyTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

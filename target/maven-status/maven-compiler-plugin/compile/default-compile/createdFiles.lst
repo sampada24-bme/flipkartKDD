@@ -1,12 +1,15 @@
 com\testing\searchComponent\SearchComponent.class
+com\testing\stepDefination\HomepageTest.class
 com\testing\constant\Constant.class
 com\testing\headerPage\OnlyWomenPage.class
 com\testing\headerPage\LogInPage.class
 com\testing\headerPage\AfterLogInPage.class
 com\testing\propertyUtility\PropertiesUtility.class
 com\testing\keyword\Keyword.class
+com\snehal\pages\UniversalBabyPage.class
 com\testing\headerPage\testCases\LogInPageTests.class
 com\testing\headerPage\testCases\OnlyWomenFirstTests.class
+com\snehal\tests\UniversalBabyTests.class
+com\testing\headerPage\testCases\AfterLogInTests.class
 com\testing\headerPage\SignInPage.class
-com\testing\headerPage\HomepageCucumberTest.class
 com\testing\headerPage\testCases\SignInTests.class

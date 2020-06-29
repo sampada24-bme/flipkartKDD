@@ -32,7 +32,7 @@ public class SearchComponent extends Keyword {
 		
 		
 		explicitWait(8);
-		mouseHoverOnly("Sampada");
+	//	mouseHoverOnly(Sampada);
 		explicitWait(5);
 		click("MyProfile");
 		explicitWait(3);

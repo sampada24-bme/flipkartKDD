@@ -1,10 +1,44 @@
-2020-Jun-24 23:55:02,111 [main] com.testing.keyword.Keyword 
-  INFO  Window maximize 
-2020-Jun-24 23:55:02,133 [main] com.snehal.tests.UniversalBabyTests 
-  INFO  Successfully Open Flipkart Site....
-2020-Jun-24 23:55:02,380 [main] com.testing.keyword.Keyword 
-  INFO  It will just hover mouse
-2020-Jun-24 23:55:02,380 [main] com.testing.keyword.Keyword 
-  INFO  explici wait applied
-2020-Jun-24 23:55:02,763 [main] com.testing.keyword.Keyword 
-  INFO  close browser successfuly
+2020-Jun-29 14:07:25,493 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-29 14:07:25,496 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  URL  launch successfully
+2020-Jun-29 14:07:27,877 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jun-29 14:07:28,796 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  Pop-up close
+2020-Jun-29 14:07:28,973 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  click on Electronic tab successfully
+2020-Jun-29 14:07:29,004 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jun-29 14:07:29,361 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  click on mobile successfully
+2020-Jun-29 14:07:29,379 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jun-29 14:07:42,128 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  RAM Selected
+2020-Jun-29 14:07:42,211 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  ScrollDown Properly
+2020-Jun-29 14:07:43,130 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  Customer rating selected
+2020-Jun-29 14:07:43,782 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  Click on InternalStorage Successfully
+2020-Jun-29 14:07:44,143 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  checkBox successfully clicked
+2020-Jun-29 14:07:45,668 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  suceessfully click on NetworkType
+2020-Jun-29 14:07:45,960 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  Sucessfully NetworkTye Box
+2020-Jun-29 14:07:47,696 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  successfully click on SimTpe
+2020-Jun-29 14:07:48,011 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  successfully select SimTypeCheckBox
+2020-Jun-29 14:07:49,550 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  successfully click on SecondaryCamera
+2020-Jun-29 14:07:49,866 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  SecondaryCamera is selected successfully
+2020-Jun-29 14:07:50,930 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  successfully click on Offers
+2020-Jun-29 14:07:55,156 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  successfully  click on ResolutionType
+2020-Jun-29 14:07:55,391 [main] com.nutan.tests.ElectronicPageTests 
+  INFO  successfully select ResolutionTypeBox

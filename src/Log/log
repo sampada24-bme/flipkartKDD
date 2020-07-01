@@ -1,4 +1,22 @@
 
+2020-Jul-01 21:51:02,407 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 21:51:02,409 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  URL launch done
+2020-Jul-01 21:51:03,684 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 21:51:03,684 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Window maximize
+2020-Jul-01 21:51:05,251 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jul-01 21:51:05,827 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Pop-Up close
+2020-Jul-01 21:51:05,827 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  logo click done
+2020-Jul-01 21:51:05,835 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  mouseHover on TVs & Appliances tab successfully
+
+
 2020-Jul-01 10:53:17,423 [main] com.testing.keyword.Keyword 
   INFO  Open URL successfully
 2020-Jul-01 10:53:19,560 [main] com.testing.keyword.Keyword 

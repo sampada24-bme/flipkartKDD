@@ -45,7 +45,7 @@ public class Keyword extends Constant{
 		switch (browserName) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			 driver = new ChromeDriver();
 			break;
 
 		case "edge":
@@ -95,7 +95,6 @@ public class Keyword extends Constant{
 		driver.manage().deleteAllCookies();
 		log.info("deleted cookies");
 	}
-
 	/**
 	 * close Log_in Pop-up
 	 */
@@ -104,7 +103,13 @@ public class Keyword extends Constant{
 		getWebElement(locatorName).click();
 		log.info("Close pop-up successfully");
 	}
+	public static void closePopup(WebElement locator) {
+		gettingWebElement(locator).click();
 
+	}
+	
+
+	
 	/**
 	 * getElement method will provide address of locator
 	 * 
@@ -283,6 +288,8 @@ public class Keyword extends Constant{
 		wait.withTimeout(duration, TimeUnit.SECONDS);
 		log.info("explici wait applied");
 	}
+	/**
+	 */
 
 	public static void waitUntil(int duration) {
 		wait = new FluentWait(driver);

@@ -1,4 +1,14 @@
 
+2020-Jul-01 10:53:17,423 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 10:53:19,560 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 10:53:19,569 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 10:53:19,569 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+
+
 2020-Jul-01 00:05:18,427 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
   INFO  Browser open
 2020-Jul-01 00:05:25,786 [main] com.testing.keyword.Keyword 
@@ -25,4 +35,5 @@
   INFO  Filter is clicked
 2020-Jul-01 00:05:36,231 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
   INFO  Particcular value selected
+
 

@@ -19,8 +19,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 
-import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 import com.testing.constant.Constant;
+//import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 import com.testing.propertyUtility.PropertiesUtility;
 import com.testing.searchComponent.SearchComponent;
 
@@ -32,8 +32,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * @author Sam
  *
  */
-public class Keyword extends Constant {
-
+public class Keyword extends Constant{
+	//public static WebDriver driver;
+	//public static WebElement element;
+	//public static Actions action;
+	//public static FluentWait wait;
+	
 	static Logger log = Logger.getLogger(Keyword.class);
 
 	public static void openBrowser(String browserName) {
@@ -173,8 +177,7 @@ public class Keyword extends Constant {
 	}
 
 	/**
-	 * gettingWebElement method will use for getting WebElement as argument
-	 * locator
+	 * gettingWebElement method will use for getting WebElement as argument locator
 	 * 
 	 * @param locator
 	 * @return
@@ -202,11 +205,12 @@ public class Keyword extends Constant {
 		action = new Actions(driver);
 		action.moveToElement(getWebElement(locator)).perform();
 		log.info("It will just hover mouse");
-	
-		
-	/*	action = new Actions(driver);
-		action.moveToElement(gettingWebElement(locator)).perform();
-		log.info("It will just hover mouse");*/
+
+		/*
+		 * action = new Actions(driver);
+		 * action.moveToElement(gettingWebElement(locator)).perform();
+		 * log.info("It will just hover mouse");
+		 */
 	}
 
 	/**
@@ -224,7 +228,6 @@ public class Keyword extends Constant {
 		Select value = new Select(locator);
 		value.selectByIndex(sendvalue);
 	}
-	
 
 	/**
 	 * to click on required position

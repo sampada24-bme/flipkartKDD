@@ -5,8 +5,14 @@
     <classes>
       <class name="com.testing.headerPage.testCases.OnlyWomenFirstTests">
         <methods>
+
           <include name="verify_women_test"/>
           <include name="setUp"/>
+
+          <include name="tc_04_verify_product_images_display_when_clickon_Ethnicwear"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+
         </methods>
       </class> <!-- com.testing.headerPage.testCases.OnlyWomenFirstTests -->
     </classes>

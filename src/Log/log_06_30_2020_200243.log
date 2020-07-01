@@ -1,0 +1,18 @@
+2020-Jun-30 20:02:28,807 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Browser open
+2020-Jun-30 20:02:37,550 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-30 20:02:37,551 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  URL launch done
+2020-Jun-30 20:02:39,965 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-30 20:02:39,966 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Window maximize
+2020-Jun-30 20:02:42,680 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jun-30 20:02:43,095 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Pop-up close
+2020-Jun-30 20:02:43,344 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  women tab selected
+2020-Jun-30 20:02:43,800 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied

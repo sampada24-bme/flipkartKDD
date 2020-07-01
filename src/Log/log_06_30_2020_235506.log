@@ -1,0 +1,12 @@
+2020-Jun-30 23:55:00,009 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Pop-up close
+2020-Jun-30 23:55:00,347 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  women tab selected
+2020-Jun-30 23:55:00,728 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Click on sarees in ethnic wear
+2020-Jun-30 23:55:00,865 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jun-30 23:55:05,696 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Filter is clicked
+2020-Jun-30 23:55:06,602 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Particcular value selected

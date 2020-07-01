@@ -34,8 +34,6 @@ public class AfterLogInPage extends Keyword{
 	
 	public boolean kurtiesVisible() {
 		return KurtasKurtis.isDisplayed();
-		// TODO Auto-generated method stub
-
 	}
 
 }

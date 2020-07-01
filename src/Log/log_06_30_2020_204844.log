@@ -1,0 +1,14 @@
+2020-Jun-30 20:48:44,984 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Browser open
+2020-Jun-30 20:48:55,217 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-30 20:48:55,218 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  URL launch done
+2020-Jun-30 20:48:57,626 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-30 20:48:57,627 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Window maximize
+2020-Jun-30 20:48:59,594 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jun-30 20:48:59,911 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Pop-up close

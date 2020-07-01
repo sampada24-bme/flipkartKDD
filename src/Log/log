@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2020-Jul-01 00:05:18,427 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
   INFO  Browser open
 2020-Jul-01 00:05:25,786 [main] com.testing.keyword.Keyword 
@@ -24,3 +25,5 @@
   INFO  Filter is clicked
 2020-Jul-01 00:05:36,231 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
   INFO  Particcular value selected
+=======
+>>>>>>> d00696d4a5f470eea9cffcc3a477e386b4f9f57e

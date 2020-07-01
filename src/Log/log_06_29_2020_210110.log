@@ -1,0 +1,8 @@
+2020-Jun-29 21:01:07,538 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-29 21:01:09,694 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-29 21:01:09,694 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jun-29 21:01:10,020 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

@@ -1,0 +1,10 @@
+2020-Jun-29 23:35:15,926 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jun-29 23:35:15,933 [main] com.testing.stepDefination.HomepageTest 
+  INFO  URL launched
+2020-Jun-29 23:35:18,511 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jun-29 23:35:23,471 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jun-29 23:35:23,489 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied

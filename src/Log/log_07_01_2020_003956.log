@@ -1,0 +1,18 @@
+2020-Jul-01 00:39:56,871 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 00:39:59,094 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 00:39:59,094 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 00:39:59,393 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 00:39:59,588 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jul-01 00:39:59,588 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Mouse hover on Baby&Kids
+2020-Jul-01 00:39:59,604 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-01 00:39:59,906 [main] com.testing.keyword.Keyword 
+  INFO  mouse hover and click perform
+2020-Jul-01 00:39:59,906 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied

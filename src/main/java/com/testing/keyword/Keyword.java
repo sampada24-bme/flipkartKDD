@@ -19,8 +19,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 
-import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 import com.testing.constant.Constant;
+//import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 import com.testing.propertyUtility.PropertiesUtility;
 import com.testing.searchComponent.SearchComponent;
 
@@ -32,8 +32,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * @author Sam
  *
  */
-public class Keyword extends Constant {
-
+public class Keyword extends Constant{
+	//public static WebDriver driver;
+	//public static WebElement element;
+	//public static Actions action;
+	//public static FluentWait wait;
+	
 	static Logger log = Logger.getLogger(Keyword.class);
 
 	public static void openBrowser(String browserName) {
@@ -41,7 +45,7 @@ public class Keyword extends Constant {
 		switch (browserName) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			 driver = new ChromeDriver();
 			break;
 
 		case "edge":
@@ -91,7 +95,6 @@ public class Keyword extends Constant {
 		driver.manage().deleteAllCookies();
 		log.info("deleted cookies");
 	}
-
 	/**
 	 * close Log_in Pop-up
 	 */
@@ -100,7 +103,13 @@ public class Keyword extends Constant {
 		getWebElement(locatorName).click();
 		log.info("Close pop-up successfully");
 	}
+	public static void closePopup(WebElement locator) {
+		gettingWebElement(locator).click();
 
+	}
+	
+
+	
 	/**
 	 * getElement method will provide address of locator
 	 * 
@@ -168,8 +177,7 @@ public class Keyword extends Constant {
 	}
 
 	/**
-	 * gettingWebElement method will use for getting WebElement as argument
-	 * locator
+	 * gettingWebElement method will use for getting WebElement as argument locator
 	 * 
 	 * @param locator
 	 * @return
@@ -193,10 +201,16 @@ public class Keyword extends Constant {
 	 * 
 	 * @param locatorName
 	 */
-	public static void mouseHoverOnly(String locatorName) {
+	public static void mouseHoverOnly(String locator) {
 		action = new Actions(driver);
-		action.moveToElement(getWebElement(locatorName)).perform();
+		action.moveToElement(getWebElement(locator)).perform();
 		log.info("It will just hover mouse");
+
+		/*
+		 * action = new Actions(driver);
+		 * action.moveToElement(gettingWebElement(locator)).perform();
+		 * log.info("It will just hover mouse");
+		 */
 	}
 
 	/**
@@ -214,7 +228,6 @@ public class Keyword extends Constant {
 		Select value = new Select(locator);
 		value.selectByIndex(sendvalue);
 	}
-	
 
 	/**
 	 * to click on required position
@@ -241,9 +254,9 @@ public class Keyword extends Constant {
 	 * @param locatorType
 	 * @param locatorValue
 	 */
-	public static void mouseHoverClick(String locatorName) {
+	public static void mouseHoverClick(String locator) {
 		action = new Actions(driver);
-		action.moveToElement(getWebElement(locatorName)).click().build().perform();
+		action.moveToElement(getWebElement(locator)).click().build().perform();
 		log.info("mouse hover and click perform");
 	}
 
@@ -275,6 +288,8 @@ public class Keyword extends Constant {
 		wait.withTimeout(duration, TimeUnit.SECONDS);
 		log.info("explici wait applied");
 	}
+	/**
+	 */
 
 	public static void waitUntil(int duration) {
 		wait = new FluentWait(driver);

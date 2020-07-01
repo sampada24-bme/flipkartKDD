@@ -5,8 +5,17 @@
     <classes>
       <class name="com.pyaranbee.tests.TVsAndAppliancesPageTest">
         <methods>
+
           <include name="verify_TVsAndAppliances_Tab"/>
+
+
+          <include name="verify_women_test"/>
+
           <include name="setUp"/>
+
+          <include name="tc_04_verify_product_images_display_when_clickon_Ethnicwear"/>
+          <include name="setup"/>
+
         </methods>
       </class> <!-- com.pyaranbee.tests.TVsAndAppliancesPageTest -->
     </classes>

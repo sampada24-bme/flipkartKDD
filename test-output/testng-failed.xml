@@ -6,7 +6,6 @@
       <class name="com.snehal.tests.UniversalBabyTests">
         <methods>
           <include name="tc_04_verify_product_images_display_when_clickon_Ethnicwear"/>
-          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.snehal.tests.UniversalBabyTests -->

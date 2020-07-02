@@ -3,23 +3,34 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+
       <class name="com.snehal.tests.UniversalBabyTests">
+
+      <class name="com.pyaranbee.tests.TVsAndAppliancesPageTest">
+
         <methods>
-<<<<<<< HEAD
+
           <include name="setup"/>
           <include name="tc_04_verify_product_images_display_when_clickon_poloandtshirt"/>
-=======
+
+
+          <include name="verify_TVsAndAppliances_Tab"/>
+
 
           <include name="verify_women_test"/>
+
           <include name="setUp"/>
 
           <include name="tc_04_verify_product_images_display_when_clickon_Ethnicwear"/>
-          <include name="tearDown"/>
           <include name="setup"/>
 
->>>>>>> 279dff1f7ec9600be70b434e9ed7d3da3a4d30e4
+
         </methods>
+
       </class> <!-- com.snehal.tests.UniversalBabyTests -->
+
+      </class> <!-- com.pyaranbee.tests.TVsAndAppliancesPageTest -->
+
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

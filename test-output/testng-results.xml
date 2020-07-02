@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25536" started-at="2020-07-01T16:20:40Z" finished-at="2020-07-01T16:21:05Z">
+
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
 
+
   <suite name="Default suite" duration-ms="26443" started-at="2020-07-01T12:07:40Z" finished-at="2020-07-01T12:08:07Z">
+
+  <suite name="Default suite" duration-ms="4063126" started-at="2020-07-01T05:22:16Z" finished-at="2020-07-01T06:29:59Z">
+
 
 
   <suite name="Default suite" duration-ms="37083" started-at="2020-06-30T18:35:10Z" finished-at="2020-06-30T18:35:47Z">
@@ -11,10 +21,38 @@
   <suite name="Default suite" duration-ms="60599" started-at="2020-07-01T05:16:44Z" finished-at="2020-07-01T05:17:45Z">
 
 
+
     <groups>
     </groups>
 
+
     <test name="Default test" duration-ms="26443" started-at="2020-07-01T12:07:40Z" finished-at="2020-07-01T12:08:07Z">
+
+    <test name="Default test" duration-ms="25536" started-at="2020-07-01T16:20:40Z" finished-at="2020-07-01T16:21:05Z">
+      <class name="com.pyaranbee.tests.TVsAndAppliancesPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pyaranbee.tests.TVsAndAppliancesPageTest@1bd4fdd]" name="setUp" is-config="true" duration-ms="24929" started-at="2020-07-01T16:20:40Z" finished-at="2020-07-01T16:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verify_popUp_Close()[pri:0, instance:com.pyaranbee.tests.TVsAndAppliancesPageTest@1bd4fdd]" name="verify_popUp_Close" duration-ms="557" started-at="2020-07-01T16:21:05Z" finished-at="2020-07-01T16:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_popUp_Close -->
+        <test-method status="FAIL" signature="verify_TVsAndAppliances_Tab()[pri:1, instance:com.pyaranbee.tests.TVsAndAppliancesPageTest@1bd4fdd]" name="verify_TVsAndAppliances_Tab" duration-ms="7" started-at="2020-07-01T16:21:05Z" finished-at="2020-07-01T16:21:05Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[washingmachine option is not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: washingmachine option is not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.pyaranbee.tests.TVsAndAppliancesPageTest.verify_TVsAndAppliances_Tab(TVsAndAppliancesPageTest.java:46)
+
+
+    <test name="Default test" duration-ms="4063126" started-at="2020-07-01T05:22:16Z" finished-at="2020-07-01T06:29:59Z">
+
 
 
     <test name="Default test" duration-ms="37083" started-at="2020-06-30T18:35:10Z" finished-at="2020-06-30T18:35:47Z">
@@ -31,6 +69,7 @@
     <test name="Default test" duration-ms="60599" started-at="2020-07-01T05:16:44Z" finished-at="2020-07-01T05:17:45Z">
 
       <class name="com.snehal.tests.UniversalBabyTests">
+
         <test-method status="PASS" signature="setup()[pri:0, instance:com.snehal.tests.UniversalBabyTests@2f8f5f62]" name="setup" is-config="true" duration-ms="24512" started-at="2020-07-01T12:07:40Z" finished-at="2020-07-01T12:08:05Z">
           <reporter-output>
           </reporter-output>
@@ -40,6 +79,19 @@
             <message>
 
               <![CDATA[javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.snehal.tests.UniversalBabyTests@5fcd892a]" name="setup" is-config="true" duration-ms="62928" started-at="2020-07-01T05:22:16Z" finished-at="2020-07-01T05:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="tc_04_verify_product_images_display_when_clickon_Ethnicwear()[pri:0, instance:com.snehal.tests.UniversalBabyTests@5fcd892a]" name="tc_04_verify_product_images_display_when_clickon_Ethnicwear" duration-ms="4000145" started-at="2020-07-01T05:23:19Z" finished-at="2020-07-01T06:29:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='_2AkmmA _29YdH8']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+
 
               <![CDATA[Cannot locate an element using xpath=//img[@src='https://rukminim1.flixcart.com/image/610/732/jumzc7k0/kids-ethnic-set/m/w/t/13-14-years-7022-black-aj-dezines-original-imafd9cuhmw5yqfc.jpeg?q=50']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
@@ -99,6 +151,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[chrome not reachable
 
   (Session info: chrome=83.0.4103.116)
+
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+
+
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 
 System info: host: 'ADI', ip: '192.168.43.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
@@ -120,14 +176,24 @@ Session ID: 5413b342873aece02c64d82d22dc9e3a]]>
 
 System info: host: 'DESKTOP-6JJE3KO', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Dhiraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 1b150d981883e1f45a6ae3f413bcfe0c]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Dhiraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4728c3d85e9260dda5d28776ae66bd95
+*** Element info: {Using=xpath, value=//button[@class='_2AkmmA _29YdH8']}]]>
             </message>
             <full-stacktrace>
+
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='_2AkmmA _29YdH8']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
 
 
   (Session info: chrome=83.0.4103.116)
+
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+
+
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 
 System info: host: 'ADI', ip: '192.168.43.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
@@ -143,6 +209,11 @@ Session ID: 5413b342873aece02c64d82d22dc9e3a
 
 System info: host: 'DESKTOP-6JJE3KO', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
+
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Dhiraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4728c3d85e9260dda5d28776ae66bd95
+*** Element info: {Using=xpath, value=//button[@class='_2AkmmA _29YdH8']}
+
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Dhiraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
 Session ID: 1b150d981883e1f45a6ae3f413bcfe0c
 
@@ -163,6 +234,17 @@ at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639
 at com.testing.keyword.Keyword.mouseHoverClick(Keyword.java:259)
 at com.snehal.tests.UniversalBabyTests.tc_04_verify_product_images_display_when_clickon_poloandtshirt(UniversalBabyTests.java:64)
 
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy8.click(Unknown Source)
+at com.snehal.pages.UniversalBabyPage.popupClose(UniversalBabyPage.java:78)
+at com.snehal.tests.UniversalBabyTests.tc_04_verify_product_images_display_when_clickon_Ethnicwear(UniversalBabyTests.java:67)
+
+
 
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
@@ -172,6 +254,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
 at com.testing.keyword.Keyword.closeBrowser(Keyword.java:330)
 at com.snehal.tests.UniversalBabyTests.tearDown(UniversalBabyTests.java:96)
+
 
 
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -196,13 +279,24 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
 
+
           </exception> <!-- org.openqa.selenium.JavascriptException -->
+
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TVsAndAppliances_Tab -->
+      </class> <!-- com.pyaranbee.tests.TVsAndAppliancesPageTest -->
+
+
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+
 
 
           </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
@@ -215,9 +309,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 
           <reporter-output>
           </reporter-output>
+
         </test-method> <!-- tc_04_verify_product_images_display_when_clickon_poloandtshirt -->
+
+        </test-method> <!-- tc_04_verify_product_images_display_when_clickon_Ethnicwear -->
+
       </class> <!-- com.snehal.tests.UniversalBabyTests -->
 
+>
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,8 @@
+2020-Jul-01 15:33:57,634 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:33:59,816 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:33:59,821 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:33:59,821 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....

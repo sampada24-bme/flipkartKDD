@@ -1,0 +1,46 @@
+2020-Jul-01 15:20:25,258 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:20:27,423 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:20:27,432 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:20:27,432 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:20:27,633 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 15:20:27,995 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly
+2020-Jul-01 15:20:41,267 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:20:43,509 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:20:43,523 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:20:43,523 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:20:43,684 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 15:20:43,853 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jul-01 15:20:43,854 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Mouse hover on Baby and kids
+2020-Jul-01 15:20:43,870 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-01 15:20:44,132 [main] com.testing.keyword.Keyword 
+  INFO  mouse hover and click perform
+2020-Jul-01 15:20:44,229 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Flipkart Logo is Displayed..
+2020-Jul-01 15:20:44,479 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly
+2020-Jul-01 15:20:56,880 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:20:59,033 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:20:59,038 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:20:59,038 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:20:59,333 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 15:20:59,557 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

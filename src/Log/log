@@ -1,39 +1,28 @@
-<<<<<<< HEAD
-2020-Jul-01 10:53:17,423 [main] com.testing.keyword.Keyword 
+2020-Jul-01 17:19:10,964 [main] com.testing.keyword.Keyword 
   INFO  Open URL successfully
-2020-Jul-01 10:53:19,560 [main] com.testing.keyword.Keyword 
+2020-Jul-01 17:19:13,134 [main] com.testing.keyword.Keyword 
   INFO  Window maximize 
-2020-Jul-01 10:53:19,569 [main] com.testing.keyword.Keyword 
+2020-Jul-01 17:19:13,140 [main] com.testing.keyword.Keyword 
   INFO  implicit wait applied
-2020-Jul-01 10:53:19,569 [main] com.snehal.tests.UniversalBabyTests 
+2020-Jul-01 17:19:13,140 [main] com.snehal.tests.UniversalBabyTests 
   INFO  Successfully Open Flipkart Site....
-=======
-
-2020-Jul-01 00:05:18,427 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Browser open
-2020-Jul-01 00:05:25,786 [main] com.testing.keyword.Keyword 
-  INFO  Open URL successfully
-2020-Jul-01 00:05:25,787 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  URL launch done
-2020-Jul-01 00:05:28,104 [main] com.testing.keyword.Keyword 
-  INFO  Window maximize 
-2020-Jul-01 00:05:28,104 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Window maximize
-2020-Jul-01 00:05:28,119 [main] com.testing.keyword.Keyword 
-  INFO  implicit wait applied
-2020-Jul-01 00:05:30,031 [main] com.testing.keyword.Keyword 
-  INFO  deleted cookies
-2020-Jul-01 00:05:30,422 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Pop-up close
-2020-Jul-01 00:05:30,700 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  women tab selected
-2020-Jul-01 00:05:31,214 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Click on sarees in ethnic wear
-2020-Jul-01 00:05:31,244 [main] com.testing.keyword.Keyword 
+2020-Jul-01 17:19:13,358 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 17:19:13,546 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jul-01 17:19:13,546 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Mouse hover on Baby and kids
+2020-Jul-01 17:19:13,562 [main] com.testing.keyword.Keyword 
   INFO  explici wait applied
-2020-Jul-01 00:05:35,246 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Filter is clicked
-2020-Jul-01 00:05:36,231 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Particcular value selected
-
->>>>>>> 7965e99c40a5daf59bb4396c4c4dc6aecdc6494a
+2020-Jul-01 17:19:13,814 [main] com.testing.keyword.Keyword 
+  INFO  mouse hover and click perform
+2020-Jul-01 17:19:17,904 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Flipkart Logo is Displayed..
+2020-Jul-01 17:19:18,116 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jul-01 17:19:18,116 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Mouse hover on Baby and kids
+2020-Jul-01 17:19:18,116 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-01 17:19:22,583 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

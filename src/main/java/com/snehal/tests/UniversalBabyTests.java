@@ -22,12 +22,12 @@ public class UniversalBabyTests extends UniversalBabyPage {
 		Keyword.implicitWait(4000);
 		log.info("Successfully Open Flipkart Site....");
 	}
-<<<<<<< HEAD
-		@Test(priority=0)
-=======
+
+		
+
 	/*
 	@Test(priority=0)
->>>>>>> d00696d4a5f470eea9cffcc3a477e386b4f9f57e
+
 		public void tc_01_verify_login_popup_close() {
 
 			UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
@@ -51,48 +51,48 @@ public class UniversalBabyTests extends UniversalBabyPage {
 			UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
 			ub.popupClose();
 			Assert.assertTrue(ub.BabyandKids.isDisplayed(), "Baby & Kids tab not present on homepage");
+		}*/
+
+		@Test
+		private void tc_04_verify_product_images_display_when_clickon_poloandtshirt() {
+			UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
+			ub.mouseHoverOnly("BabyandKids");
+			//ub.mouseHoverClick("BabyandKids");
+			ub.explicitWait(5000);
+			//ub.mouseHoverOnly("Ethnicwearnew");
+			//log.info("Mouse hover on Ethnic wear");
+			ub.mouseHoverClick("Ethnicwear");
+			ub.explicitWait(5000);
+			String title=ub.driver.getTitle();
+			Assert.assertEquals(title, "Ethnic Wear - Buy Ethnic Wear Online at Best Prices In India | Flipkart.com");
+			Assert.assertTrue(ub.isProductImageDisplayed(), "Product Images not display");
 		}
-<<<<<<< HEAD
-//		@Test
-//		private void tc_04_verify_product_images_display_when_clickon_poloandtshirt() {
-//			UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
-//			ub.mouseHoverOnly("BabyandKids");
-//			//ub.mouseHoverClick("BabyandKids");
-//			ub.explicitWait(5000);
-//			//ub.mouseHoverOnly("Ethnicwearnew");
-//			//log.info("Mouse hover on Ethnic wear");
-//			ub.mouseHoverClick("Ethnicwear");
-//			ub.explicitWait(5000);
-		//	String title=uh.driver.getTitle();
-		//	Assert.assertEquals(title, "Ethnic Wear - Buy Ethnic Wear Online at Best Prices In India | Flipkart.com");
-//			Assert.assertTrue(ub.isProductImageDisplayed(), "Product Images not display");
-//		}
-=======
+
 		
-	@Test(priority=3)
-	public void tc_04_verify_previous_Filter_is_Displayed() {
-		UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
-		ub.popupClose();
-		ub.mouseHoverOnly("BabyandKids");
-		log.info("Mouse hover on Baby and kids");
-	ub.explicitWait(2000);
-		ub.mouseHoverClick("Ethnicwear");
-		//ub.explicitWait(000);
-		Assert.assertTrue(ub.isFilterDisplayed(), "Previous filter is not selected");
-	}
-	*/
-	@Test
-	public void tc_04_verify_product_images_display_when_clickon_Ethnicwear() {
-		UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
-		ub.popupClose();
-		ub.mouseHoverOnly("BabyandKids");
-		log.info("Mouse hover on Baby&Kids");
-		ub.explicitWait(3000);
-		ub.mouseHoverClick("Ethnicwear");
-		//ub.explicitWait(4000);
-		//boolean img =ub.getImageList();
-		Assert.assertTrue(ub.productImageDisplayed());
-	}
+//	@Test(priority=3)
+//	public void tc_04_verify_previous_Filter_is_Displayed() {
+//		UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
+//		ub.popupClose();
+//		ub.mouseHoverOnly("BabyandKids");
+//		log.info("Mouse hover on Baby and kids");
+//	ub.explicitWait(2000);
+//		ub.mouseHoverClick("Ethnicwear");
+//		//ub.explicitWait(000);
+//		Assert.assertTrue(ub.isFilterDisplayed(), "Previous filter is not selected");
+//	}
+	
+//	@Test
+//	public void tc_04_verify_product_images_display_when_clickon_Ethnicwear() {
+//		UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
+//		ub.popupClose();
+//		ub.mouseHoverOnly("BabyandKids");
+//		log.info("Mouse hover on Baby&Kids");
+//		ub.explicitWait(3000);
+//		ub.mouseHoverClick("Ethnicwear");
+//		//ub.explicitWait(4000);
+//		//boolean img =ub.getImageList();
+//		Assert.assertTrue(ub.productImageDisplayed());
+//	}
 	
 	
 	/*
@@ -109,8 +109,6 @@ public class UniversalBabyTests extends UniversalBabyPage {
 			boolean img =isProductImageDisplayed();
 			Assert.assertTrue(img);
 		}*/
->>>>>>> d00696d4a5f470eea9cffcc3a477e386b4f9f57e
-
 
 		/*@AfterMethod
 		public void tearDown() {

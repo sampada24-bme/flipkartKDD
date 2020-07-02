@@ -3,18 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testing.headerPage.testCases.OnlyWomenFirstTests">
+      <class name="com.snehal.tests.UniversalBabyTests">
         <methods>
-<<<<<<< HEAD
-          <include name="verify_women_test"/>
-          <include name="setUp"/>
-=======
-          <include name="tc_04_verify_product_images_display_when_clickon_Ethnicwear"/>
-          <include name="tearDown"/>
           <include name="setup"/>
->>>>>>> d00696d4a5f470eea9cffcc3a477e386b4f9f57e
+          <include name="tc_04_verify_product_images_display_when_clickon_poloandtshirt"/>
         </methods>
-      </class> <!-- com.testing.headerPage.testCases.OnlyWomenFirstTests -->
+      </class> <!-- com.snehal.tests.UniversalBabyTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

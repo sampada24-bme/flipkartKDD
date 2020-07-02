@@ -1,0 +1,34 @@
+2020-Jul-01 15:26:40,537 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:26:42,681 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:26:42,688 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:26:42,688 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:26:42,879 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 15:26:43,032 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly
+2020-Jul-01 15:26:55,769 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:26:57,909 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:26:57,916 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:26:57,916 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:26:58,085 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 15:26:58,255 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jul-01 15:26:58,256 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Mouse hover on Baby and kids
+2020-Jul-01 15:26:58,271 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-01 15:26:58,515 [main] com.testing.keyword.Keyword 
+  INFO  mouse hover and click perform
+2020-Jul-01 15:26:58,588 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Flipkart Logo is Displayed..
+2020-Jul-01 15:26:58,760 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+ 
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+
 
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
@@ -6,8 +9,12 @@
   <suite name="Default suite" duration-ms="25536" started-at="2020-07-01T16:20:40Z" finished-at="2020-07-01T16:21:05Z">
 
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+
   <reporter-output>
   </reporter-output>
+
+  <suite name="Default suite" duration-ms="27846" started-at="2020-07-01T11:48:54Z" finished-at="2020-07-01T11:49:22Z">
+
 
 
   <suite name="Default suite" duration-ms="26443" started-at="2020-07-01T12:07:40Z" finished-at="2020-07-01T12:08:07Z">
@@ -24,6 +31,9 @@
 
     <groups>
     </groups>
+
+    <test name="Default test" duration-ms="27846" started-at="2020-07-01T11:48:54Z" finished-at="2020-07-01T11:49:22Z">
+
 
 
     <test name="Default test" duration-ms="26443" started-at="2020-07-01T12:07:40Z" finished-at="2020-07-01T12:08:07Z">
@@ -70,6 +80,9 @@ at com.pyaranbee.tests.TVsAndAppliancesPageTest.verify_TVsAndAppliances_Tab(TVsA
 
       <class name="com.snehal.tests.UniversalBabyTests">
 
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.snehal.tests.UniversalBabyTests@8b87145]" name="setup" is-config="true" duration-ms="18621" started-at="2020-07-01T11:48:54Z" finished-at="2020-07-01T11:49:13Z">
+
+
         <test-method status="PASS" signature="setup()[pri:0, instance:com.snehal.tests.UniversalBabyTests@2f8f5f62]" name="setup" is-config="true" duration-ms="24512" started-at="2020-07-01T12:07:40Z" finished-at="2020-07-01T12:08:05Z">
           <reporter-output>
           </reporter-output>
@@ -81,9 +94,25 @@ at com.pyaranbee.tests.TVsAndAppliancesPageTest.verify_TVsAndAppliances_Tab(TVsA
               <![CDATA[javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
 
         <test-method status="PASS" signature="setup()[pri:0, instance:com.snehal.tests.UniversalBabyTests@5fcd892a]" name="setup" is-config="true" duration-ms="62928" started-at="2020-07-01T05:22:16Z" finished-at="2020-07-01T05:23:19Z">
+
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
+
+        <test-method status="PASS" signature="tc_02_verify_logo_is_Displayed()[pri:1, instance:com.snehal.tests.UniversalBabyTests@8b87145]" name="tc_02_verify_logo_is_Displayed" duration-ms="4530" started-at="2020-07-01T11:49:13Z" finished-at="2020-07-01T11:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02_verify_logo_is_Displayed -->
+        <test-method status="PASS" signature="tc_03_verify_babyandkids_tab_present_in_homepage()[pri:2, instance:com.snehal.tests.UniversalBabyTests@8b87145]" name="tc_03_verify_babyandkids_tab_present_in_homepage" duration-ms="62" started-at="2020-07-01T11:49:17Z" finished-at="2020-07-01T11:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_03_verify_babyandkids_tab_present_in_homepage -->
+        <test-method status="PASS" signature="tc_04_verify_previous_Filter_is_Displayed()[pri:3, instance:com.snehal.tests.UniversalBabyTests@8b87145]" name="tc_04_verify_previous_Filter_is_Displayed" duration-ms="194" started-at="2020-07-01T11:49:17Z" finished-at="2020-07-01T11:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_04_verify_previous_Filter_is_Displayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.snehal.tests.UniversalBabyTests@8b87145]" name="tearDown" is-config="true" duration-ms="4415" started-at="2020-07-01T11:49:18Z" finished-at="2020-07-01T11:49:22Z">
+
         <test-method status="FAIL" signature="tc_04_verify_product_images_display_when_clickon_Ethnicwear()[pri:0, instance:com.snehal.tests.UniversalBabyTests@5fcd892a]" name="tc_04_verify_product_images_display_when_clickon_Ethnicwear" duration-ms="4000145" started-at="2020-07-01T05:23:19Z" finished-at="2020-07-01T06:29:59Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
@@ -307,8 +336,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 
           </exception> <!-- org.openqa.selenium.WebDriverException -->
 
+
           <reporter-output>
           </reporter-output>
+ 
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.snehal.tests.UniversalBabyTests -->
+
 
         </test-method> <!-- tc_04_verify_product_images_display_when_clickon_poloandtshirt -->
 
@@ -316,7 +350,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 
       </class> <!-- com.snehal.tests.UniversalBabyTests -->
 
->
-    </test> <!-- Default test -->
+
+   </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

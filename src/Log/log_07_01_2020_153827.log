@@ -1,0 +1,30 @@
+2020-Jul-01 15:38:06,140 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:38:08,319 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:38:08,324 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:38:08,325 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:38:08,517 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 15:38:08,794 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly
+2020-Jul-01 15:38:20,811 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:38:22,983 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:38:22,993 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:38:22,994 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:38:23,209 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 15:38:23,403 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jul-01 15:38:23,404 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Mouse hover on Baby and kids
+2020-Jul-01 15:38:23,404 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-01 15:38:27,938 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

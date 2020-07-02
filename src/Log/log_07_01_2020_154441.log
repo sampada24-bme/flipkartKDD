@@ -1,0 +1,22 @@
+2020-Jul-01 15:44:41,885 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:44:44,103 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:44:44,110 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:44:44,110 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:44:44,378 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 15:44:44,696 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly
+2020-Jul-01 15:44:57,695 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:44:59,859 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:44:59,878 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:44:59,878 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:44:59,994 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly

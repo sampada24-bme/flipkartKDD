@@ -253,11 +253,18 @@ public class Keyword extends Constant{
 	 * 
 	 * @param locatorType
 	 * @param locatorValue
+	 * @throws InterruptedException 
 	 */
 	public static void mouseHoverClick(String locator) {
 		action = new Actions(driver);
 		action.moveToElement(getWebElement(locator)).click().build().perform();
 		log.info("mouse hover and click perform");
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	/**

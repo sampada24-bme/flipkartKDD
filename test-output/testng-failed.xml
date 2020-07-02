@@ -6,6 +6,17 @@
 
       <class name="com.snehal.tests.UniversalBabyTests">
         <methods>
+          <include name="tc_03_verify_babyandkids_tab_present_in_homepage"/>
+          <include name="tc_04_verify_previous_Filter_is_Displayed"/>
+          <include name="tearDown"/>
+          <include name="tc_02_verify_logo_is_Displayed"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.snehal.tests.UniversalBabyTests -->
+
+
+      <class name="com.snehal.tests.UniversalBabyTests">
+        <methods>
 
           <include name="setup"/>
           <include name="tc_04_verify_product_images_display_when_clickon_poloandtshirt"/>

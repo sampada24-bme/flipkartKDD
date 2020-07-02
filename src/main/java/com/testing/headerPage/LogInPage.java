@@ -4,7 +4,9 @@ import org.apache.commons.logging.Log;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
 
+import com.testing.constant.Constant;
 import com.testing.keyword.Keyword;
 
 public class LogInPage extends Keyword {
@@ -31,6 +33,10 @@ public class LogInPage extends Keyword {
 	
 	@FindBy(css=".vh79eN svg")
 	public WebElement searchButton;
+	
+	public LogInPage() {
+		PageFactory.initElements(driver, this);
+	}
 	
 	public boolean closespopUp() {
 		popUp.click();

@@ -56,21 +56,23 @@ public class OnlyWomenFirstTests extends OnlyWomenPage {
 		om.clickOnFilter();
 		log.info("Filter is clicked");
 		om.selectByValue(dropdown, "1000");
+		Thread.sleep(3000);
 		log.info("Particcular value selected");
 		//om.selectByIndex(filter, 3);
 		
-		List<WebElement>prices=driver.findElements(By.cssSelector("._1vC4OE"));
-		Iterator <WebElement>itr=prices.iterator();
+		List<WebElement> prices=driver.findElements(By.cssSelector("._1vC4OE"));
+		//Iterator <WebElement>itr=prices.iterator();
 		for(int i=0;i<prices.size();i++){
 			try{
 			System.out.println(prices.get(i).getText());
 			String price=prices.get(i).getText().replace("₹","0");
 			int p=Integer.valueOf(price);
+			//System.out.println(price);
 			Assert.assertTrue(p<expectedPrice,p+" is grater than 1000");
 			}catch(StaleElementReferenceException ex){
 				driver.navigate().refresh();
-				Thread.sleep(5000);
-				System.out.println(itr.next().getText());
+				//Thread.sleep(5000);
+				//System.out.println(itr.next().getText());
 			}
 		}
 	}

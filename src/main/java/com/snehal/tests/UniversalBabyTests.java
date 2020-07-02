@@ -28,6 +28,7 @@ public class UniversalBabyTests extends UniversalBabyPage {
 	/*
 	@Test(priority=0)
 
+
 		public void tc_01_verify_login_popup_close() {
 
 			UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
@@ -67,6 +68,21 @@ public class UniversalBabyTests extends UniversalBabyPage {
 			Assert.assertEquals(title, "Ethnic Wear - Buy Ethnic Wear Online at Best Prices In India | Flipkart.com");
 			Assert.assertTrue(ub.isProductImageDisplayed(), "Product Images not display");
 		}
+
+//		@Test
+//		private void tc_04_verify_product_images_display_when_clickon_poloandtshirt() {
+//			UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
+//			ub.mouseHoverOnly("BabyandKids");
+//			//ub.mouseHoverClick("BabyandKids");
+//			ub.explicitWait(5000);
+//			//ub.mouseHoverOnly("Ethnicwearnew");
+//			//log.info("Mouse hover on Ethnic wear");
+//			ub.mouseHoverClick("Ethnicwear");
+//			ub.explicitWait(5000);
+		//	String title=uh.driver.getTitle();
+		//	Assert.assertEquals(title, "Ethnic Wear - Buy Ethnic Wear Online at Best Prices In India | Flipkart.com");
+//			Assert.assertTrue(ub.isProductImageDisplayed(), "Product Images not display");
+//		}
 
 		
 //	@Test(priority=3)
@@ -109,6 +125,7 @@ public class UniversalBabyTests extends UniversalBabyPage {
 			boolean img =isProductImageDisplayed();
 			Assert.assertTrue(img);
 		}*/
+
 
 		/*@AfterMethod
 		public void tearDown() {

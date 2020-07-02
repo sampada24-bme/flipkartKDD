@@ -5,8 +5,19 @@
     <classes>
       <class name="com.snehal.tests.UniversalBabyTests">
         <methods>
+<<<<<<< HEAD
           <include name="setup"/>
           <include name="tc_04_verify_product_images_display_when_clickon_poloandtshirt"/>
+=======
+
+          <include name="verify_women_test"/>
+          <include name="setUp"/>
+
+          <include name="tc_04_verify_product_images_display_when_clickon_Ethnicwear"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+
+>>>>>>> 279dff1f7ec9600be70b434e9ed7d3da3a4d30e4
         </methods>
       </class> <!-- com.snehal.tests.UniversalBabyTests -->
     </classes>

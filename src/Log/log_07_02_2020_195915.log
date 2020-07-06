@@ -1,0 +1,24 @@
+2020-Jul-02 19:59:00,406 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-02 19:59:00,414 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  URL launch successfully
+2020-Jul-02 19:59:00,997 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Pop-Up close
+2020-Jul-02 19:59:02,286 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  logo click done
+2020-Jul-02 19:59:02,993 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Log In Click
+2020-Jul-02 19:59:03,679 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Entered email
+2020-Jul-02 19:59:04,054 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Entered password
+2020-Jul-02 19:59:04,222 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Click on log in submit
+2020-Jul-02 19:59:04,673 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Product search successfully
+2020-Jul-02 19:59:04,891 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-02 19:59:10,511 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  search button work fine
+2020-Jul-02 19:59:15,068 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

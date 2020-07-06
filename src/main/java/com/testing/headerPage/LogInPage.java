@@ -34,6 +34,7 @@ public class LogInPage extends Keyword {
 	@FindBy(css=".vh79eN svg")
 	public WebElement searchButton;
 	
+	//constructor
 	public LogInPage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -75,8 +76,8 @@ public class LogInPage extends Keyword {
 	public void clickOnSearchButton() {
 		searchButton.click();
 	}
-	public boolean isSearchButtonVisible() {
-		return searchButton.isDisplayed();
+	public boolean isSearchButtonEnable() {
+		return searchButton.isEnabled();
 	}
 
 }

@@ -1,54 +1,26 @@
-
-
-
-2020-Jul-01 17:38:02,894 [main] com.testing.keyword.Keyword 
-
-2020-Jul-01 21:51:02,407 [main] com.testing.keyword.Keyword 
-  INFO  Open URL successfully
-2020-Jul-01 21:51:02,409 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  URL launch done
-2020-Jul-01 21:51:03,684 [main] com.testing.keyword.Keyword 
-  INFO  Window maximize 
-2020-Jul-01 21:51:03,684 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Window maximize
-2020-Jul-01 21:51:05,251 [main] com.testing.keyword.Keyword 
-  INFO  deleted cookies
-2020-Jul-01 21:51:05,827 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Pop-Up close
-2020-Jul-01 21:51:05,827 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  logo click done
-2020-Jul-01 21:51:05,835 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  mouseHover on TVs & Appliances tab successfully
-
-
-2020-Jul-01 10:53:17,423 [main] com.testing.keyword.Keyword 
-  INFO  Open URL successfully
-2020-Jul-01 10:53:19,560 [main] com.testing.keyword.Keyword 
-  INFO  Window maximize 
-2020-Jul-01 10:53:19,569 [main] com.testing.keyword.Keyword 
-  INFO  implicit wait applied
-2020-Jul-01 10:53:19,569 [main] com.snehal.tests.UniversalBabyTests 
-  INFO  Successfully Open Flipkart Site....
-
-
-
-2020-Jul-01 00:05:18,427 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+2020-Jul-05 17:18:04,295 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
   INFO  Browser open
-2020-Jul-01 00:05:25,786 [main] com.testing.keyword.Keyword 
+2020-Jul-05 17:18:15,732 [main] com.testing.keyword.Keyword 
   INFO  Open URL successfully
-2020-Jul-01 17:38:05,248 [main] com.testing.keyword.Keyword 
+2020-Jul-05 17:18:20,666 [main] com.testing.keyword.Keyword 
+  INFO  refresh page
+2020-Jul-05 17:18:20,667 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  URL launch done
+2020-Jul-05 17:18:23,323 [main] com.testing.keyword.Keyword 
   INFO  Window maximize 
-2020-Jul-01 17:38:05,269 [main] com.testing.keyword.Keyword 
+2020-Jul-05 17:18:27,241 [main] com.testing.keyword.Keyword 
+  INFO  refresh page
+2020-Jul-05 17:18:27,242 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Window maximize
+2020-Jul-05 17:18:27,329 [main] com.testing.keyword.Keyword 
   INFO  implicit wait applied
-2020-Jul-01 17:38:05,269 [main] com.snehal.tests.UniversalBabyTests 
-  INFO  Successfully Open Flipkart Site....
-2020-Jul-01 17:38:06,663 [main] com.testing.keyword.Keyword 
-  INFO  It will just hover mouse
-2020-Jul-01 17:38:06,807 [main] com.testing.keyword.Keyword 
-  INFO  explici wait applied
-2020-Jul-01 00:05:35,246 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Filter is clicked
-2020-Jul-01 00:05:36,231 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
-  INFO  Particcular value selected
-
-
+2020-Jul-05 17:18:29,694 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jul-05 17:18:30,760 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Pop-up close
+2020-Jul-05 17:18:31,164 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  women tab selected
+2020-Jul-05 17:18:32,119 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Click on sarees in ethnic wear
+2020-Jul-05 17:18:38,021 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Checkbox is selected

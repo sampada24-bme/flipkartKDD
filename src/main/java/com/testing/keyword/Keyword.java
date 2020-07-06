@@ -1,7 +1,15 @@
 package com.testing.keyword;
 
+import java.awt.AWTException;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+
+import javax.imageio.ImageIO;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -329,6 +337,36 @@ public class Keyword extends Constant{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,300)");
 	}
+	
+	
+	public void takeScreenShot_Of_FailTest_Case(String name)  {
+		try {
+			robo=new Robot();
+		} catch (AWTException e1) {
+			e1.printStackTrace();
+		}
+		rect=new Rectangle();
+		rect.setRect(0, 0, 1350,800);
+		
+		BufferedImage img=robo.createScreenCapture(rect);
+		try {
+			ImageIO.write(img, "PNG",new File("F:/Screenshot of failTestcase/"+name));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	/**
 	 * Close Window

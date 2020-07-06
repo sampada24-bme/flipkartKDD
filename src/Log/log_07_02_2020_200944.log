@@ -1,0 +1,24 @@
+2020-Jul-02 20:09:32,813 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-02 20:09:35,451 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-02 20:09:35,452 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  URL launch successfully
+2020-Jul-02 20:09:36,788 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Pop-Up close
+2020-Jul-02 20:09:37,171 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  logo click done
+2020-Jul-02 20:09:37,627 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Log In Click
+2020-Jul-02 20:09:38,281 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Entered email
+2020-Jul-02 20:09:38,838 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Entered password
+2020-Jul-02 20:09:39,474 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Click on log in submit
+2020-Jul-02 20:09:40,591 [main] com.testing.headerPage.testCases.LogInPageTests 
+  INFO  Product search successfully
+2020-Jul-02 20:09:40,941 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-02 20:09:44,803 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

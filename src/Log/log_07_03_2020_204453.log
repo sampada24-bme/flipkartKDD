@@ -1,0 +1,32 @@
+2020-Jul-03 20:44:02,292 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Browser open
+2020-Jul-03 20:44:32,106 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-03 20:44:32,108 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  URL launch done
+2020-Jul-03 20:44:34,380 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-03 20:44:34,380 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Window maximize
+2020-Jul-03 20:44:34,450 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-03 20:44:37,304 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jul-03 20:44:38,299 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Pop-up close
+2020-Jul-03 20:44:38,767 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  women tab selected
+2020-Jul-03 20:44:39,636 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Click on sarees in ethnic wear
+2020-Jul-03 20:44:46,761 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Checkbox is selected
+2020-Jul-03 20:44:47,306 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Logo click
+2020-Jul-03 20:44:47,529 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  women tab selected
+2020-Jul-03 20:44:47,906 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Click on sarees in ethnic wear
+2020-Jul-03 20:44:48,467 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-03 20:44:53,611 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

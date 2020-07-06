@@ -1,0 +1,42 @@
+2020-Jul-01 15:45:00,193 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jul-01 15:45:00,194 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Mouse hover on Baby and kids
+2020-Jul-01 15:45:00,209 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-01 15:45:00,457 [main] com.testing.keyword.Keyword 
+  INFO  mouse hover and click perform
+2020-Jul-01 15:45:00,544 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Flipkart Logo is Displayed..
+2020-Jul-01 15:45:00,691 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly
+2020-Jul-01 15:45:12,627 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:45:14,828 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:45:14,846 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:45:14,846 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:45:15,016 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 15:45:15,221 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly
+2020-Jul-01 15:45:29,868 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 15:45:32,029 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 15:45:32,033 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 15:45:32,034 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 15:45:32,237 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly
+2020-Jul-01 15:45:32,407 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jul-01 15:45:32,408 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Mouse hover on Baby and kids
+2020-Jul-01 15:45:32,408 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-01 15:45:36,916 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

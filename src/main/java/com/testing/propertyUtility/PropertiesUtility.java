@@ -20,8 +20,8 @@ public class PropertiesUtility {
 		try {
 
 
-			FileInputStream fis = new FileInputStream(
-			"F:\\classjava\\flipkartKDD\\src\\main\\resources\\objectRepository.properties");
+			//FileInputStream fis = new FileInputStream(
+			//"F:\\classjava\\flipkartKDD\\src\\main\\resources\\objectRepository.properties");
 //			FileInputStream fis = new FileInputStream(
 //			"G:\\GitHub Project\\flipkartKDD\\src\\main\\resources\\objectRepository.properties");
 //			

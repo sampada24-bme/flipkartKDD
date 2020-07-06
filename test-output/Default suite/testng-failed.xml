@@ -3,13 +3,41 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+
       <class name="com.testing.headerPage.testCases.OnlyWomenFirstTests">
+
+
+      <class name="com.snehal.tests.UniversalBabyTests">
+        <methods>
+          <include name="tc_03_verify_babyandkids_tab_present_in_homepage"/>
+          <include name="tc_04_verify_previous_Filter_is_Displayed"/>
+          <include name="tearDown"/>
+          <include name="tc_02_verify_logo_is_Displayed"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.snehal.tests.UniversalBabyTests -->
+
+
+      <class name="com.snehal.tests.UniversalBabyTests">
+
+      <class name="com.pyaranbee.tests.TVsAndAppliancesPageTest">
+
+
         <methods>
           <include name="verify_Women_Saree_Selected"/>
           <include name="verify_Flipkart_Assured_CheckBox"/>
           <include name="setUp"/>
         </methods>
+
       </class> <!-- com.testing.headerPage.testCases.OnlyWomenFirstTests -->
+
+
+      </class> <!-- com.snehal.tests.UniversalBabyTests -->
+
+      </class> <!-- com.pyaranbee.tests.TVsAndAppliancesPageTest -->
+
+ 
+
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

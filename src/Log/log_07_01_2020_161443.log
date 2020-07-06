@@ -1,0 +1,10 @@
+2020-Jul-01 16:14:40,915 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-01 16:14:43,087 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-01 16:14:43,095 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-01 16:14:43,096 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Successfully Open Flipkart Site....
+2020-Jul-01 16:14:43,297 [main] com.snehal.pages.UniversalBabyPage 
+  INFO  Login Popup close successfuly

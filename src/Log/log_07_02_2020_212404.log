@@ -1,0 +1,16 @@
+2020-Jul-02 21:24:04,464 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Checkbox is selected
+2020-Jul-02 21:24:05,046 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Logo click
+2020-Jul-02 21:24:05,263 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  women tab selected
+2020-Jul-02 21:24:05,627 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Click on sarees in ethnic wear
+2020-Jul-02 21:24:05,801 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-02 21:24:07,781 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Filter is clicked
+2020-Jul-02 21:24:08,453 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-02 21:24:08,455 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Particcular value selected

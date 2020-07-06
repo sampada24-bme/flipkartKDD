@@ -1,5 +1,8 @@
 package com.testing.constant;
 
+import java.awt.Rectangle;
+import java.awt.Robot;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -13,5 +16,9 @@ public class Constant {
 	public static Actions action;
 	public static FluentWait wait;
 	public static WebDriverWait waiting;
+	public static Robot robo;
+	public static Rectangle rect;
+	
+	
 	
 }

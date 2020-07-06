@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -30,6 +31,13 @@ public class OnlyWomenPage extends Keyword {
 	@FindBy(xpath = "//img[@class='_1e_EAo']")
 	public WebElement Logo;
 
+	@FindBy(css="div[class='_1p7h2j _2irnD_']")
+	public WebElement checkbox;
+	
+	public OnlyWomenPage() {
+		PageFactory.initElements(Constant.driver, this);
+	}
+	
 	public void closespopUp() {
 		popUp.click();
 	}
@@ -57,18 +65,20 @@ public class OnlyWomenPage extends Keyword {
 		Select value=new Select(dropdown);
 		value.selectByValue(sendvalue);
 	}
-	
 	public boolean isSareeVisible() {
 		return saree.isDisplayed();
-
 	}
-
-
 	public boolean isLogoDisplay() {
 		
 		return Logo.isDisplayed();
 	}
-	
+	public void clickOnCkeckbox() {
+		checkbox.click();
+
+	}
+	public boolean isCheckBoxEnable() {
+		return checkbox.isEnabled();
+	}
 	
 	
 	

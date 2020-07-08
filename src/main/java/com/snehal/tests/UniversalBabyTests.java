@@ -75,7 +75,7 @@ public class UniversalBabyTests extends UniversalBabyPage {
 		//ub.explicitWait(000);
 		Assert.assertTrue(ub.isFilterDisplayed(), "Previous filter is not selected");
 	}
-	*/
+	
 	@Test
 	public void tc_04_verify_product_images_display_when_clickon_Ethnicwear() {
 		UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);

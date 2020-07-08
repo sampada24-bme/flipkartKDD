@@ -4,10 +4,12 @@ package com.snehal.pages;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.testing.keyword.Keyword;
 
@@ -104,6 +106,7 @@ public class UniversalBabyPage extends Keyword{
 			//	}	
 		}
 		public boolean isFilterDisplayed() {
+			
 			return prevFilter.isDisplayed();
 		}
 

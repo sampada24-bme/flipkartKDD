@@ -1,0 +1,10 @@
+2020-Jul-05 13:45:07,469 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Browser open
+2020-Jul-05 13:45:30,030 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-05 13:45:51,315 [main] com.testing.keyword.Keyword 
+  INFO  refresh page
+2020-Jul-05 13:45:51,316 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  URL launch done
+2020-Jul-05 13:45:53,604 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 

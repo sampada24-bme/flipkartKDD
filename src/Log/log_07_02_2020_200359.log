@@ -1,0 +1,16 @@
+2020-Jul-02 20:03:24,646 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Browser open
+2020-Jul-02 20:03:47,747 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-02 20:03:47,747 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  URL launch done
+2020-Jul-02 20:03:49,985 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-02 20:03:49,985 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Window maximize
+2020-Jul-02 20:03:49,997 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-02 20:03:50,032 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jul-02 20:03:59,347 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied

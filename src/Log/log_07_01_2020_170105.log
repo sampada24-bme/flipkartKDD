@@ -1,0 +1,10 @@
+2020-Jul-01 17:01:00,561 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Flipkart Logo is Displayed..
+2020-Jul-01 17:01:00,798 [main] com.testing.keyword.Keyword 
+  INFO  It will just hover mouse
+2020-Jul-01 17:01:00,798 [main] com.snehal.tests.UniversalBabyTests 
+  INFO  Mouse hover on Baby and kids
+2020-Jul-01 17:01:00,798 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-01 17:01:05,816 [main] com.testing.keyword.Keyword 
+  INFO  close browser successfuly

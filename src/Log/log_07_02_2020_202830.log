@@ -1,0 +1,26 @@
+2020-Jul-02 20:28:14,120 [main] com.testing.keyword.Keyword 
+  INFO  Open URL successfully
+2020-Jul-02 20:28:14,123 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  URL launch done
+2020-Jul-02 20:28:16,505 [main] com.testing.keyword.Keyword 
+  INFO  Window maximize 
+2020-Jul-02 20:28:16,506 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Window maximize
+2020-Jul-02 20:28:16,524 [main] com.testing.keyword.Keyword 
+  INFO  implicit wait applied
+2020-Jul-02 20:28:19,223 [main] com.testing.keyword.Keyword 
+  INFO  deleted cookies
+2020-Jul-02 20:28:21,834 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Pop-up close
+2020-Jul-02 20:28:22,876 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  women tab selected
+2020-Jul-02 20:28:23,628 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Click on sarees in ethnic wear
+2020-Jul-02 20:28:24,144 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-02 20:28:29,156 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Filter is clicked
+2020-Jul-02 20:28:30,512 [main] com.testing.keyword.Keyword 
+  INFO  explici wait applied
+2020-Jul-02 20:28:30,512 [main] com.testing.headerPage.testCases.OnlyWomenFirstTests 
+  INFO  Particcular value selected

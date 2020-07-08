@@ -32,7 +32,7 @@ public class UniversalBabyTests extends UniversalBabyPage {
 	}
 
 	// @Test(priority=0)
-	public void tc_01_verify_login_popup_close() {
+//	public void tc_01_verify_login_popup_close() {
 
 		
 

@@ -109,6 +109,20 @@ public class UniversalBabyTests extends UniversalBabyPage {
 		
 		Assert.assertTrue(ub.isFilterDisplayed(), "Previous filter is not selected");
 	}
+
+	
+	@Test
+	public void tc_04_verify_product_images_display_when_clickon_Ethnicwear() {
+		UniversalBabyPage ub=PageFactory.initElements(Constant.driver, UniversalBabyPage.class);
+		ub.popupClose();
+		ub.mouseHoverOnly("BabyandKids");
+		log.info("Mouse hover on Baby&Kids");
+		ub.explicitWait(3000);
+		ub.mouseHoverClick("Ethnicwear");
+		//ub.explicitWait(4000);
+		//boolean img =ub.getImageList();
+		Assert.assertTrue(ub.productImageDisplayed());
+
 	/*
 	 * @Test public void
 	 * tc_04_verify_product_images_display_when_clickon_Ethnicwear() {
@@ -133,6 +147,7 @@ public class UniversalBabyTests extends UniversalBabyPage {
 	@AfterClass
 	public void tearDown() {
 		Keyword.closeBrowser();
+
 	}
 
 		

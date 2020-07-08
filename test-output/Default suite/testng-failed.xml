@@ -5,6 +5,14 @@
     <classes>
 
       <class name="com.testing.headerPage.testCases.OnlyWomenFirstTests">
+        <methods>
+          <include name="verify_women_test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testing.headerPage.testCases.OnlyWomenFirstTests -->
+
+
+      <class name="com.testing.headerPage.testCases.OnlyWomenFirstTests">
 
 
       <class name="com.snehal.tests.UniversalBabyTests">
@@ -37,6 +45,7 @@
       </class> <!-- com.pyaranbee.tests.TVsAndAppliancesPageTest -->
 
  
+
 
     </classes>
   </test> <!-- Default test(failed) -->

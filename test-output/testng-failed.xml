@@ -4,6 +4,10 @@
   <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.testing.headerPage.testCases.OnlyWomenFirstTests">
+
+        <methods>
+          <include name="verify_women_test"/>
+
         <methods>
 
           <include name="verify_Women_Saree_Selected"/>
@@ -32,6 +36,7 @@
 
 
           <include name="verify_women_test"/>
+
 
 
           <include name="setUp"/>

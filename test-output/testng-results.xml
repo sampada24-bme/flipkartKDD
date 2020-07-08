@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
@@ -14,10 +16,14 @@
   </reporter-output>
   <suite name="Default suite" duration-ms="25536" started-at="2020-07-01T16:20:40Z" finished-at="2020-07-01T16:21:05Z">
 
+
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
 
   <reporter-output>
   </reporter-output>
+
+  <suite name="Default suite" duration-ms="20222" started-at="2020-07-03T21:04:27Z" finished-at="2020-07-03T21:04:47Z">
+
 
   <suite name="Default suite" duration-ms="27846" started-at="2020-07-01T11:48:54Z" finished-at="2020-07-01T11:49:22Z">
 
@@ -36,12 +42,25 @@
 
 
 
+
     <groups>
       <group name="regression">
         <method signature="OnlyWomenFirstTests.verify_Flipkart_Assured_CheckBox()[pri:2, instance:com.testing.headerPage.testCases.OnlyWomenFirstTests@71248c21]" name="verify_Flipkart_Assured_CheckBox" class="com.testing.headerPage.testCases.OnlyWomenFirstTests"/>
         <method signature="OnlyWomenFirstTests.verify_Women_Saree_Selected()[pri:1, instance:com.testing.headerPage.testCases.OnlyWomenFirstTests@71248c21]" name="verify_Women_Saree_Selected" class="com.testing.headerPage.testCases.OnlyWomenFirstTests"/>
       </group> <!-- regression -->
     </groups>
+
+    <test name="Default test" duration-ms="20222" started-at="2020-07-03T21:04:27Z" finished-at="2020-07-03T21:04:47Z">
+      <class name="com.testing.headerPage.testCases.OnlyWomenFirstTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testing.headerPage.testCases.OnlyWomenFirstTests@8b87145]" name="setUp" is-config="true" duration-ms="14565" started-at="2020-07-03T21:04:27Z" finished-at="2020-07-03T21:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verify_women_test()[pri:1, instance:com.testing.headerPage.testCases.OnlyWomenFirstTests@8b87145]" name="verify_women_test" duration-ms="5604" started-at="2020-07-03T21:04:41Z" finished-at="2020-07-03T21:04:47Z">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "01,079"]]>
+
 
     <test name="Default test" duration-ms="58417" started-at="2020-07-05T11:47:42Z" finished-at="2020-07-05T11:48:40Z">
 
@@ -154,22 +173,14 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-6JJE3KO', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
 Driver info: driver.version: RemoteWebDriver]]>
+
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//img[@src='https://rukminim1.flixcart.com/image/610/732/jumzc7k0/kids-ethnic-set/m/w/t/13-14-years-7022-black-aj-dezines-original-imafd9cuhmw5yqfc.jpeg?q=50']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-6JJE3KO', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-at com.snehal.pages.UniversalBabyPage.productImageDisplayed(UniversalBabyPage.java:84)
-at com.snehal.tests.UniversalBabyTests.tc_04_verify_product_images_display_when_clickon_Ethnicwear(UniversalBabyTests.java:74)
+              <![CDATA[java.lang.NumberFormatException: For input string: "01,079"
+at java.lang.NumberFormatException.forInputString(Unknown Source)
+at java.lang.Integer.parseInt(Unknown Source)
+at java.lang.Integer.valueOf(Unknown Source)
+at com.testing.headerPage.testCases.OnlyWomenFirstTests.verify_women_test(OnlyWomenFirstTests.java:68)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -197,6 +208,9 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
+
+          </exception> <!-- java.lang.NumberFormatException -->
+
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
@@ -356,10 +370,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 
 
           </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_women_test -->
       </class> <!-- com.testing.headerPage.testCases.OnlyWomenFirstTests -->
+
+    </test> <!-- Default test -->
+
 
           </exception> <!-- org.openqa.selenium.WebDriverException -->
 
@@ -379,6 +397,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 
 
    </test> <!-- Default test -->
+
 
   </suite> <!-- Default suite -->
 </testng-results>
